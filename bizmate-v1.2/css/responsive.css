@@ -1,0 +1,67 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {line-height: 15px;}
+  .slider-img img {width: 100%;height: 450px;}
+  .nav > li > a {position: relative; display: block;padding: 10px 5px;}
+  .slider-text {top: 60%;}
+  .slider-text a {margin-top: 25px;}
+  .slider-text h2 {font-size: 40px;}
+  .about-heading h5 {padding-top: 10px;}
+  .single-fun-fact {padding-right: 10px;}
+  .single-fun-fact i {margin-bottom: 10px;}
+  .single-fun-fact h3.counter {margin-bottom: 10px;}
+  .portfolio-title span {top: 20px;}
+  .reply-comment { margin-left: 37px;}
+
+}
+
+/* Mobile Layout: 320px. */
+@media (max-width: 767px) {
+  .container {width:300px}
+  .header-top-area { background: #fff }
+  .navbar-brand { color: #135589 !important }
+  .mainmenu .navbar-nav li a { color: #333 !important }
+  .navbar-default .navbar-toggle .icon-bar {background-color: #135589;}
+  .slider-img img {height: 320px;}
+  .slider-text {top: 60%;}
+  .slider-text span {font-size: 24px;}
+  .slider-text span.sub-title {font-size: 18px;}
+  .portfolio-menu ul li {padding: 12px 11px;}
+  .slider-text h2 {font-size: 24px; line-height: 30px; margin: 9px 0;}
+  .slider-text p {display: none;}
+  .slider-text a {font-size: 15px; line-height: 26px; margin-top: 0; padding: 5px 20px;}
+  .section-title > h3 { font-size: 26px;}
+  .choose-content p {width: 100%;}
+  .social-icons{padding-bottom: 20px;}
+  .footer-text {margin-bottom: 40px;}
+  .copyright {margin-top: 9px; text-align: center;}
+  .icon {margin-top: 20px; text-align: center;}
+  .subscribe-text { text-align: center; margin-bottom: 20px;}
+  .icon a {margin: 0 4px;}
+  .footer-info {text-align: left;}
+  .footer-logo {text-align: left;}
+  .blog-story {margin-bottom: 50px;}
+  .about-text {margin-bottom: 30px;}
+  .about-img {margin-bottom: 20px;}
+  .single-team {margin-bottom: 30px; position: relative;}
+  .single-fun-fact {padding-right: 15px; margin-bottom: 20px;  border-right: 1px solid #3399Ff;  }
+  .single-fun-fact i {float: left; margin-left: 20px; margin-bottom: 20px;}
+
+  .contact-form {margin-top: 40px;}
+  .reply-comment {margin-left: 15px;}
+  .single-widget {margin-bottom: 18px; margin-left: 0px;}
+  .tags {margin-left: 0px;}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+} 
+ 
+
